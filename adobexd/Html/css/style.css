@@ -1,0 +1,313 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color:#d0e1f6;
+}
+.header{
+    background-color: #2067DD;
+    width:auto;
+    border-bottom-right-radius:250px ;
+    opacity: 0.9;
+    margin: auto;
+}
+
+.logo{
+    margin-top: 17px;
+    margin-left: 172px;
+    width: 172px;
+    background: transparent url('img/Logo.svg') 0% 0% no-repeat padding-box;
+    opacity: 0.9;
+}
+.img{
+    width: 500px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 75px;
+    opacity: 1;
+}
+h1{
+    margin-top: 37px;
+    margin-left: 172px;
+    width: 379px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    margin-top: 30px;
+    margin-left: 172px;
+    width: 621px;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    opacity: 0.8;
+}
+.btn{
+    margin-bottom: 80px;
+    margin-top: 30px;
+    margin-left: 172px;
+    /* margin-top: 1px; */
+    width: 120px;
+    font-size: 17px;
+    background-color: rgb(87, 190, 18);
+    padding: auto;
+}
+.data{
+    width:1303px;
+}
+.work{
+    margin-top: 125px;
+    margin-left: 570px;
+    color: #303E4B;
+    font-family: 'Times New Roman', Times, serif;
+    opacity: 0.9;
+}
+.main{
+    width:1140px;
+    display: flex;
+    gap: 50px;
+    margin-left: 140px;
+    margin-top: 40px;
+}
+.box1{
+    width: 300px;
+    background-color:white;
+    padding-bottom: 18px;
+}
+.logo1{
+    width: 40px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.data1{
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-left: 20px;
+    margin-top: 15px;
+    color: #303E4B;
+    opacity: 1;
+}
+.content{
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-left: 20px;
+    margin-top: 15px;
+    color: #748EAA;
+    opacity: 1;
+    line-height: 19px;
+}
+.domain{
+    background-color:white;
+    width:100%;
+}
+.work1{
+        /* margin-top: 125px;
+        margin-left: 570px; */
+        margin-top: 100px;
+        padding-top: 60px;
+        text-align: center;
+        color: #303E4B;
+        font-family:serif;
+        opacity: 0.9;
+        font-size: 30px;
+        
+}
+.container1{
+    display: flex;
+    gap: 50px;
+    margin-left: 210px;
+    margin-top: 40px;
+    
+}
+.domain1{
+    width: 430px;
+    box-shadow: 3px 3px 12px   #2067DD19 ;
+    border-radius: 3px; 
+    opacity: 1;
+    padding-bottom: 20px;
+}
+
+.process{
+    font-size: 19px;
+    font-family: sans-serif;
+    margin-left: 20px;
+    margin-top: 35px;
+    color: #303E4B;
+    opacity: 1;
+}
+.content2{
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-left: 20px;
+    margin-top: 30px;
+    color: #748EAA;
+    opacity: 1;
+    line-height: 19px;
+}
+.domain1:hover{
+    background-color:#2067DD;
+}
+
+.domain1:hover .process{
+    color: white;
+}
+.domain1:hover .content2{
+    color: white;
+}
+.working{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 25px;
+    color: #303E4B;
+    font-family:serif;
+}
+.paragraph{
+    text-align: center;
+    color: #303E4B;
+    margin-left: 340px;
+    font-size: 17px;
+    
+}
+.btn1{
+    margin-top: 35px;
+    margin-left: 580px;
+    /* margin-top: 1px; */
+    width: 130px;
+    font-size: 17px;
+    background-color: rgb(87, 190, 18);
+    padding: auto;
+}
+img{
+    width: 100%;
+}
+.parentContainer {
+    margin-top: 70px;
+    position: relative;
+    text-align: center;
+    color: white;
+}   
+.top-left {
+    position: absolute;
+    top: 95px;
+    left: 120px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.sentence{
+    position: absolute;
+    bottom: 110px;
+    left: 120px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 20px;
+}
+.container{
+    width: auto;
+}
+.messagebox{
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 900px;
+    background-color: white;
+    display: flex;
+    padding-bottom: 25px;
+}
+.table{
+    width: 200px;   
+    display: flex;
+}
+.sendmessage{
+    color: #2067DD;
+    font-size: 25px;
+    padding-top: 20px;
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.row1{
+    margin: 20px;
+}
+#name{
+    width: 200px;
+    height: 30px;
+}
+#email{
+    width: 200px;
+    height: 30px;
+}
+.msg{
+    margin-left: 20px;
+    padding-top: 10px;
+}
+.btn3{
+    background-color: rgb(87, 190, 18);
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 120px;
+    padding: auto;
+    font-size: 17px;
+}
+.contactinfo{ 
+    background-color: blue;
+    margin-left: 120px;
+    margin-bottom: -25px;
+}
+.info{
+    font-size: 25px;
+    padding-top: 20px;
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.fa-map-marker{
+    margin: 20px;
+    color: white;
+}
+.fa-envelope{
+    padding-top: 20px;
+    margin-left: 20px;
+    color: white;
+}
+.fa-phone{
+    margin-left: 20px;
+    color: white;
+    
+}
+.social{
+    padding: 20px;
+    font-size: 25px;
+    width: 50px;
+    text-align: center;
+    margin: 5px 2px;
+    gap: 20px;
+    display: flex;
+    border-radius: 100%;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-google {    
+    background: #dd4b39;
+    color: white;
+}
+.drone{
+    position: absolute;
+    width: 250px;
+    float: right;
+    margin-left: 760px;
+    margin-top: 241px;
+}
+.design{
+    width: auto;
+    height: 30px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 80px;
+    font-size: 15px;
+    background-color: #2067DD;
+    color: white;
+}

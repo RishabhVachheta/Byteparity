@@ -1,0 +1,61 @@
+
+.header{
+    background-color: rgb(142, 96, 96);
+    text-align: center;
+    color: white;
+    height: 152px;
+}
+h1{
+    font-size: 30px;
+}
+p{
+    margin-top: -20px;
+}
+button
+{
+    background-color: rgb(53, 186, 53);
+    color:white ;
+    margin: 2px;
+    
+}
+.information
+{
+    text-align: center;
+    font-size: 31px;
+    background-color: whitesmoke;
+}
+#v1{
+    font-size: 17px;
+}
+.child{
+    font-size: 14px;
+    margin: 23px;
+}
+.box{
+    display: inline-flex;
+    align-items: center;
+    
+}
+p{
+    font-size: small;
+}   
+h5{
+    margin-top: 2px;
+}
+.sc2 {
+    text-align: center;
+    background-color: orange;
+    padding: 10px;
+  }
+
+.box2{
+    display:flex;
+    gap: 50px;
+  
+}
+
+.img{
+    width: 20%;
+    border-radius: 100%;
+    justify-content: space-evenly;
+}

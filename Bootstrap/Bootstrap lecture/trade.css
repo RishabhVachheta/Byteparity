@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+.header{
+    background-color: blue;
+    background-image: url("Background\ Shape.png");
+    height: 400px;
+}

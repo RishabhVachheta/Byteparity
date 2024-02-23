@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="apnacollege.css"> -->
+</head>
+<body>
+    <!-- <button id="btn">Click Me!!!</button>
+    <p id="fact"></p>
+    <script src="lec1.js"></script> -->
+    <h2>my name is rishabh</h2>
+
+    <p id="demo"></p>
+
+    <script>
+        const student = {
+            name : "rishabh",
+            rollno : 45,
+            age : 21,
+            fullname : function(){
+                return this.name +" "+ this.rollno;
+            }
+        };
+    //     Object.defineProperty(student,"rollno",{value:28})
+    //     document.getElementById("demo").innerHTML = student.rollno;
+    //     document.getElementById("demo").innerHTML = Object.getPrototypeOf(student);
+    //     document.getElementById("demo").innerHTML = Object.getOwnPropertyNames(student);
+    //     document.getElementById("demo").innerHTML = Object.keys(student);
+
+            document.getElementById("demo").innerHTML = student.fullname();
+    </script>
+
+</body>
+</html>
