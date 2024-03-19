@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dynamic Content Buttons</title>
+</head>
+<body>
+  <button id="pTagButton">Create P Tag Content</button>
+  <button id="aTagButton">Create Anchor Tag Content</button>
+  <button id="selectButton">Create Select List Content</button>
+  <button id="h1TagButton">Create H1 Tag Content</button>
+  
+  <div id="contentContainer"></div>
+
+  <script>
+    function createContent(tagName, content) {
+      const element = document.createElement(tagName);
+      element.textContent = content;
+      return element;
+    }
+
+    document.getElementById('pTagButton').addEventListener('click', function() {
+      const content = createContent('p', 'This is a dynamically created paragraph.');
+      document.getElementById('contentContainer').appendChild(content);
+    });
+
+    document.getElementById('aTagButton').addEventListener('click', function() {
+      const content = createContent('a', 'Click here for more information.');
+      content.href = '#'; 
+      document.getElementById('contentContainer').appendChild(content);
+    });
+
+    document.getElementById('selectButton').addEventListener('click', function() {
+      const content = document.createElement('select');
+      const options = ['Option 1', 'Option 2', 'Option 3'];
+      options.forEach(option => {
+        const optionElement = document.createElement('option');
+        optionElement.textContent = option;
+        content.appendChild(optionElement);
+      });
+      document.getElementById('contentContainer').appendChild(content);
+    });
+
+    document.getElementById('h1TagButton').addEventListener('click', function() {
+      const content = createContent('h1', 'Dynamic Heading');
+      document.getElementById('contentContainer').appendChild(content);
+    });
+  </script>
+</body>
+</html>

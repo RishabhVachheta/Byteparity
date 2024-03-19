@@ -452,6 +452,14 @@
 // ----------------------------------------------------------------------------
 
 
+function myDisplayer(something){            // myDisplayer is the name of the Function
+    document.getElementById("demo").innerHTML = something;
+}
+function myFunction(num1, num2, mycallback){
+    let sum = num1 + num2;
+    mycallback(sum);
+}
+myFunction(5, 5, myDisplayer);          //It myDIsplayer Fuction pass as an argument to the myFunction
 
 
 

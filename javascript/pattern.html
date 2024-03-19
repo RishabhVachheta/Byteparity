@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const rows = 5;
+      for (let i = rows; i >= 1; i--) {
+        let row = " ";
+
+        for (let j = 1; j <= rows; j++) {
+          for (let k = 0; k < rows - i; k++) {
+            row += "  ";
+          }
+
+          for (let l = 0; l < i; l++) {
+            // if (j % 2 == 0) {
+            //   row += ` *  `;
+            // } else {
+            //   if(j == 1  && i == 1){
+            //     row += ` 5  `;
+            //   }else{
+            //     row += ` -  `;
+            //   }
+            // }
+
+            if(j != 0 && i == 1){
+              row += ` 5  `;
+            }
+            else{
+                row += ` -  `;
+              }
+          }
+
+          for (let m = 0; m < rows - i; m++) {
+            row += "  ";
+          }
+
+          row += "  ";
+        }
+
+        console.log(row);
+      }
+    </script>
+  </body>
+</html>
